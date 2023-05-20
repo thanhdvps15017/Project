@@ -1,0 +1,388 @@
+[03-Apr-2023 13:09:13 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ReflectionException: Class "App\Exceptions\Handler" does not exist in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#11 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Exceptions\Handler] does not exist. in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[03-Apr-2023 13:09:26 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ReflectionException: Class "App\Exceptions\Handler" does not exist in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#11 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Exceptions\Handler] does not exist. in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[03-Apr-2023 13:09:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ReflectionException: Class "App\Exceptions\Handler" does not exist in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#11 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Exceptions\Handler] does not exist. in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[03-Apr-2023 13:09:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ReflectionException: Class "App\Exceptions\Handler" does not exist in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#11 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Exceptions\Handler] does not exist. in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[03-Apr-2023 13:10:07 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ReflectionException: Class "App\Exceptions\Handler" does not exist in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#11 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Exceptions\Handler] does not exist. in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[03-Apr-2023 13:32:31 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ReflectionException: Class "App\Exceptions\Handler" does not exist in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#11 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Exceptions\Handler] does not exist. in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[03-Apr-2023 13:33:16 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ReflectionException: Class "App\Exceptions\Handler" does not exist in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#11 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Exceptions\Handler] does not exist. in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[03-Apr-2023 13:33:19 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ReflectionException: Class "App\Exceptions\Handler" does not exist in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#11 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Exceptions\Handler] does not exist. in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[03-Apr-2023 13:33:20 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ReflectionException: Class "App\Exceptions\Handler" does not exist in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#11 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Exceptions\Handler] does not exist. in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[03-Apr-2023 13:33:20 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ReflectionException: Class "App\Exceptions\Handler" does not exist in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#11 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Exceptions\Handler] does not exist. in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[03-Apr-2023 13:33:20 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ReflectionException: Class "App\Exceptions\Handler" does not exist in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#11 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Exceptions\Handler] does not exist. in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1431): Illuminate\Foundation\Application->make()
+#9 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Container\Container->offsetGet()
+#10 /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /home/jbemrvfv/public_html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /home/jbemrvfv/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[03-Apr-2023 14:56:56 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/jbemrvfv/public_html/vendor/composer/../spatie/flare-client-php/src/helpers.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/jbemrvfv/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/composer/autoload_real.php(38): composerRequirecbb6e1e55373af687c663e48b7d6325b()
+#1 /home/jbemrvfv/public_html/vendor/autoload.php(25): ComposerAutoloaderInitcbb6e1e55373af687c663e48b7d6325b::getLoader()
+#2 /home/jbemrvfv/public_html/artisan(18): require('/home/jbemrvfv/...')
+#3 {main}
+  thrown in /home/jbemrvfv/public_html/vendor/composer/autoload_real.php on line 55
+[03-Apr-2023 14:57:03 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/jbemrvfv/public_html/vendor/composer/../spatie/flare-client-php/src/helpers.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/jbemrvfv/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/jbemrvfv/public_html/vendor/composer/autoload_real.php(38): composerRequirecbb6e1e55373af687c663e48b7d6325b()
+#1 /home/jbemrvfv/public_html/vendor/autoload.php(25): ComposerAutoloaderInitcbb6e1e55373af687c663e48b7d6325b::getLoader()
+#2 /home/jbemrvfv/public_html/artisan(18): require('/home/jbemrvfv/...')
+#3 {main}
+  thrown in /home/jbemrvfv/public_html/vendor/composer/autoload_real.php on line 55
+[03-Apr-2023 15:36:26 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Symfony\Component\Console\Exception\RuntimeException: Unable to write output. in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Output/StreamOutput.php:79
+Stack trace:
+#0 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Output/Output.php(164): Symfony\Component\Console\Output\StreamOutput->doWrite()
+#1 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Output/Output.php(132): Symfony\Component\Console\Output\Output->write()
+#2 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(641): Symfony\Component\Console\Output\Output->writeln()
+#3 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException()
+#4 phar:///opt/cpanel/composer/bin/composer/src/Composer/Console/Application.php(131): Symfony\Component\Console\Application->run()
+#5 phar:///opt/cpanel/composer/bin/composer/bin/composer(83): Composer\Console\Application->run()
+#6 /opt/cpanel/composer/bin/composer(29): require('phar:///opt/cpa...')
+#7 {main}
+  thrown in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Output/StreamOutput.php on line 79

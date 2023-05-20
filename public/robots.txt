@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /readme.html
+Disallow: /license.txt
+Sitemap: https://beeswatch.online/sitemap.xml
